@@ -4,6 +4,7 @@ public class Hello {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Nama: ");
+        System.out.println("Asal negara: ");
         String name = s.nextLine();
         System.out.print("Umur: ");
         int umur = s.nextInt();
