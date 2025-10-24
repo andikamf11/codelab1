@@ -5,6 +5,7 @@ public class Hello {
         Scanner s = new Scanner(System.in);
         System.out.print("Nama: ");
         System.out.println("Asal negara: ");
+        System.out.println("nama inisial: ");
         String name = s.nextLine();
         System.out.print("Umur: ");
         int umur = s.nextInt();
